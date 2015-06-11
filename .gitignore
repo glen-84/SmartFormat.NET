@@ -8,3 +8,5 @@ src/packages/*
 *.ncrunch*
 *.cache
 *.nupkg
+.vs/
+[Aa]rtifacts/

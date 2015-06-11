@@ -1,0 +1,24 @@
+﻿{
+  "version": "1.6.1.0",
+  "description": "A string composition library written in C# that can format data into a string with a minimal, intuitive syntax. It uses extensions to provide named placeholders, pluralization, gender conjugation, and time and list formatting.",
+  "authors": [ "Scott Rippey" ],
+  "tags": [ "" ],
+  "projectUrl": "https://github.com/scottrippey/SmartFormat.NET",
+  "licenseUrl": "",
+  "dependencies": {
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Xml.Linq": "4.0.0.0"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.0-beta-23008",
+        "System.Linq": "4.0.0-beta-23008",
+        "System.Xml.XDocument": "4.0.10-beta-23008"
+      }
+    }
+  }
+}

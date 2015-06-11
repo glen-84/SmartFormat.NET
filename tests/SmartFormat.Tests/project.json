@@ -1,0 +1,24 @@
+﻿{
+  "version": "1.0.0",
+  "description": "Tests for SmartFormat.NET",
+  "authors": [ "Scott Rippey" ],
+  "tags": [ "" ],
+  "projectUrl": "https://github.com/scottrippey/SmartFormat.NET",
+  "licenseUrl": "",
+  "dependencies": {
+    "NUnit": "2.6.4",
+    "SmartFormat": ""
+  },
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.Drawing": "4.0.0.0"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.0-beta-23008"
+      }
+    }
+  }
+}

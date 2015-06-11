@@ -40,9 +40,9 @@ namespace SmartFormat.Extensions
 				{
 					return false;
 				}
-				templateName = formattingInfo.Format.Text;
+				templateName = formattingInfo.Format.RawText;
 			}
-			
+
 			Format template;
 			if (!this.templates.TryGetValue(templateName, out template))
 			{

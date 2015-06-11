@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0CE99BF7-FF91-4FE8-A105-40B1A5FBECEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85EEF3EA-CA87-4923-9765-1DAA1555959C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartFormat", "src\SmartFormat\SmartFormat.xproj", "{D9BBB722-8AFC-4466-B7FF-F8678B4C4B07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{696743BD-8ACC-4C96-8424-5B04CA483A1D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartFormat.Tests", "tests\SmartFormat.Tests\SmartFormat.Tests.xproj", "{84854CCC-46AB-488A-8CD9-33E634968CC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9BBB722-8AFC-4466-B7FF-F8678B4C4B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BBB722-8AFC-4466-B7FF-F8678B4C4B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BBB722-8AFC-4466-B7FF-F8678B4C4B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BBB722-8AFC-4466-B7FF-F8678B4C4B07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84854CCC-46AB-488A-8CD9-33E634968CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84854CCC-46AB-488A-8CD9-33E634968CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84854CCC-46AB-488A-8CD9-33E634968CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84854CCC-46AB-488A-8CD9-33E634968CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9BBB722-8AFC-4466-B7FF-F8678B4C4B07} = {0CE99BF7-FF91-4FE8-A105-40B1A5FBECEC}
+		{84854CCC-46AB-488A-8CD9-33E634968CC7} = {696743BD-8ACC-4C96-8424-5B04CA483A1D}
+	EndGlobalSection
+EndGlobal
